@@ -11,19 +11,19 @@ class HomeController extends Controller
     }
 
     public function about(){
-        return 'About page';
+        return view('pages.about');
     }
 
     public function service(){
-        return 'Service page';
+        return view('pages.service');
     }
 
     public function contact(){
-        return 'Contact page';
+        return view('pages.contact');
     }
 
     public function login(){
-        return 'Login page';
+        return view('pages.login');
     }
 
 }
