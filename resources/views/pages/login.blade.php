@@ -3,7 +3,7 @@
 @section('title') เข้าสู่ระบบ @endsection
 @section('content')
 
-<div class="container d-flex align-items-center" style="height: 70vh;">
+<div class="container align-items-center mt-5">
         
     <form class="col-xs-12 offset-xs-0 col-md-4 offset-md-4" action="dashboard.html">
         <p class="text-center mb-5"><img src="{{asset('assets/images/logo.jpg')}}" width="150"></p>
